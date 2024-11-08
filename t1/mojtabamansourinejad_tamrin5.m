@@ -1,8 +1,8 @@
 clc
 
-matrix = magic(4);
+matrix = magic(5);
 
-for i = 1:4
+for i = 1:5
     matrix(i, i) = 0;
 end
 
